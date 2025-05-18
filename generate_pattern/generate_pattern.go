@@ -9,10 +9,10 @@ func GeneratePattern(n int) {
 		fmt.Print("The number should be less than 10")
 	}
 	for counter := n; counter > 0; counter-- {
-		fmt.Println(" ")
-		for i := 1; i <= counter; i++ {
+		for i := 1; i < counter; i++ {
 			fmt.Print(i)
 		}
+		fmt.Println(" ")
 	}
 
 	fmt.Println("\n==============================")
