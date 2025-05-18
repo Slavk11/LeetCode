@@ -7,12 +7,13 @@ func GeneratePattern(n int) {
 
 	if n > 10 {
 		fmt.Print("The number should be less than 10")
-	}
-	for counter := n; counter > 0; counter-- {
-		for i := 1; i < counter; i++ {
-			fmt.Print(i)
+	} else {
+		for counter := n; counter > 0; counter-- {
+			for i := 1; i < counter; i++ {
+				fmt.Print(i)
+			}
+			fmt.Println()
 		}
-		fmt.Println(" ")
 	}
 
 	fmt.Println("\n==============================")
