@@ -11,7 +11,7 @@ func SumAndDivide(fistNum int, secondNum int) float64 {
 	}
 
 	result = float64(sum) / (float64(fistNum) + float64(secondNum))
-	fmt.Println("🔧 Выполнение задач: Sum & Divide и Generate Pattern\n")
+	fmt.Println("🔧 Выполнение: Sum & Divide и Generate Pattern\n")
 
 	fmt.Println("The result is ", result)
 
