@@ -5,6 +5,7 @@ import (
 	"LeetCode/even_and_divisible_numbers"
 	"LeetCode/generate_pattern"
 	"LeetCode/number_rotation"
+	"LeetCode/rehearsal"
 	"LeetCode/sum_and_divide"
 )
 
@@ -14,4 +15,5 @@ func main() {
 	number_rotation.RotateNumbers(20, 4)
 	even_and_divisible_numbers.DivisibleNumbers(10)
 	diamond_pattern.PrintDiamondPattern(5)
+	rehearsal.SumAndDivide(4, 10)
 }
