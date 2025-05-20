@@ -13,6 +13,6 @@ func DivisibleNumbers(x int) {
 			fmt.Println(num)
 		}
 	}
-	fmt.Print(numbers, sum)
+	fmt.Println(numbers, sum)
 
 }
