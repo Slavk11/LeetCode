@@ -3,7 +3,7 @@ package even_and_divisible_numbers
 import "fmt"
 
 func DivisibleNumbers(x int) {
-	fmt.Println("🔧 Выполнение: Diamond Pattern\n")
+	fmt.Println("🔧 Выполнение: DivisibleNumbersn\n")
 
 	var sum int
 	var numbers []int
@@ -12,7 +12,6 @@ func DivisibleNumbers(x int) {
 		if num%2 == 0 || num%6 == 0 {
 			numbers = append(numbers, num)
 			sum += num
-			fmt.Println(num)
 		}
 	}
 	fmt.Println(numbers, sum)
