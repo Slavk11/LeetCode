@@ -1,6 +1,7 @@
 package main
 
 import (
+	"LeetCode/abundant_number"
 	"LeetCode/diamond_pattern"
 	"LeetCode/even_and_divisible_numbers"
 	"LeetCode/generate_pattern"
@@ -16,4 +17,5 @@ func main() {
 	even_and_divisible_numbers.DivisibleNumbers(10)
 	diamond_pattern.PrintDiamondPattern(5)
 	rehearsal.SumAndDivide(4, 10)
+	abundant_number.IsAbundantNumber(12)
 }
