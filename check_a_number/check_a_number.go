@@ -19,6 +19,7 @@ func CheckNumber(x int) {
 	case sum < x:
 		fmt.Printf("The number %d is Deficient", x)
 	}
+
 	fmt.Println("\n==============================")
 	fmt.Println("   ✅ Программа завершена    ")
 	fmt.Println("Алгоритмическая сложность по CPU - O(n), по памяти O(1)")

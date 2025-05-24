@@ -6,6 +6,7 @@ import (
 	"LeetCode/diamond_pattern"
 	"LeetCode/even_and_divisible_numbers"
 	"LeetCode/generate_pattern"
+	"LeetCode/longest_string"
 	"LeetCode/number_rotation"
 	"LeetCode/rehearsal"
 	"LeetCode/sum_and_divide"
@@ -20,4 +21,6 @@ func main() {
 	rehearsal.SumAndDivide(4, 10)
 	abundant_number.IsAbundantNumber(12)
 	check_a_number.CheckNumber(87)
+	a := []string{"abc", "coddy", "golang", "java"}
+	longest_string.LongestString(a)
 }
