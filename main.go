@@ -4,6 +4,7 @@ import (
 	"LeetCode/abundant_number"
 	"LeetCode/check_a_number"
 	"LeetCode/diamond_pattern"
+	"LeetCode/double_even_numbers"
 	"LeetCode/even_and_divisible_numbers"
 	"LeetCode/generate_pattern"
 	"LeetCode/longest_string"
@@ -13,6 +14,9 @@ import (
 )
 
 func main() {
+	wordsArray := []string{"abc", "coddy", "golang", "java"}
+	numbersArray := []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+
 	sum_and_divide.SumAndDivide(4, 10)
 	generate_pattern.GeneratePattern(10)
 	number_rotation.RotateNumbers(20, 4)
@@ -21,6 +25,7 @@ func main() {
 	rehearsal.SumAndDivide(4, 10)
 	abundant_number.IsAbundantNumber(12)
 	check_a_number.CheckNumber(87)
-	a := []string{"abc", "coddy", "golang", "java"}
-	longest_string.LongestString(a)
+	longest_string.LongestString(wordsArray)
+	double_even_numbers.DoubleEvenNumbers(numbersArray)
+
 }
