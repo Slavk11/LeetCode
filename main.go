@@ -11,11 +11,13 @@ import (
 	"LeetCode/number_rotation"
 	"LeetCode/rehearsal"
 	"LeetCode/sum_and_divide"
+	"LeetCode/sum_average_minimum_and_max"
 )
 
 func main() {
 	wordsArray := []string{"abc", "coddy", "golang", "java"}
 	numbersArray := []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+	numbersForCaluculate := []float64{3.5, 2.34, 8.9, 1.6, 4.3}
 
 	sum_and_divide.SumAndDivide(4, 10)
 	generate_pattern.GeneratePattern(10)
@@ -27,5 +29,6 @@ func main() {
 	check_a_number.CheckNumber(87)
 	longest_string.LongestString(wordsArray)
 	double_even_numbers.DoubleEvenNumbers(numbersArray)
+	sum_average_minimum_and_max.Calculate(numbersForCaluculate)
 
 }
