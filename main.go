@@ -11,6 +11,7 @@ import (
 	"LeetCode/longest_string"
 	"LeetCode/number_rotation"
 	"LeetCode/rehearsal"
+	"LeetCode/slice_to_map"
 	"LeetCode/sum"
 	"LeetCode/sum_and_divide"
 	"LeetCode/sum_average_minimum_and_max"
@@ -22,6 +23,7 @@ func main() {
 	numbersForCalculate := []float64{3.5, 2.34, 8.9, 1.6, 4.3}
 	arrForSum := []int{2, 4, 6, 7, 8, 8, 9}
 	evenAndOddNumbersArray := []int{20, 6, 78, 89, 9, 12, 33}
+	sliceToMap := []string{"Coddy", "LearnGolang", "LearnPython", "Challenges"}
 
 	sum_and_divide.SumAndDivide(4, 10)
 	generate_pattern.GeneratePattern(10)
@@ -36,5 +38,5 @@ func main() {
 	sum_average_minimum_and_max.Calculate(numbersForCalculate)
 	sum.CalculateSum(arrForSum)
 	even_and_odd_numbers.PerformOperations(evenAndOddNumbersArray)
-
+	slice_to_map.SliceToMap(sliceToMap)
 }
