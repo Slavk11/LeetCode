@@ -9,6 +9,7 @@ import (
 	"LeetCode/even_and_odd_numbers"
 	"LeetCode/generate_pattern"
 	"LeetCode/longest_string"
+	"LeetCode/non_repeated_indices"
 	"LeetCode/number_rotation"
 	"LeetCode/rehearsal"
 	"LeetCode/slice_to_map"
@@ -24,6 +25,7 @@ func main() {
 	arrForSum := []int{2, 4, 6, 7, 8, 8, 9}
 	evenAndOddNumbersArray := []int{20, 6, 78, 89, 9, 12, 33}
 	sliceToMap := []string{"Coddy", "LearnGolang", "LearnPython", "Challenges"}
+	nonRepeatedIndicesArr := []string{"a", "fc", "ab", "a", "ab", "b"}
 
 	sum_and_divide.SumAndDivide(4, 10)
 	generate_pattern.GeneratePattern(10)
@@ -39,4 +41,5 @@ func main() {
 	sum.CalculateSum(arrForSum)
 	even_and_odd_numbers.PerformOperations(evenAndOddNumbersArray)
 	slice_to_map.SliceToMap(sliceToMap)
+	non_repeated_indices.NonRepeatedIndices(nonRepeatedIndicesArr)
 }
