@@ -13,6 +13,7 @@ import (
 	"LeetCode/number_rotation"
 	"LeetCode/rehearsal"
 	"LeetCode/slice_to_map"
+	"LeetCode/string_tokenizer"
 	"LeetCode/sum"
 	"LeetCode/sum_and_divide"
 	"LeetCode/sum_average_minimum_and_max"
@@ -42,4 +43,5 @@ func main() {
 	even_and_odd_numbers.PerformOperations(evenAndOddNumbersArray)
 	slice_to_map.SliceToMap(sliceToMap)
 	non_repeated_indices.NonRepeatedIndices(nonRepeatedIndicesArr)
+	string_tokenizer.InsertSpace(6, "cooddypythongolang")
 }
