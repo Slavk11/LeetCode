@@ -2,6 +2,7 @@ package main
 
 import (
 	"LeetCode/abundant_number"
+	"LeetCode/char_extractor"
 	"LeetCode/check_a_number"
 	"LeetCode/diamond_pattern"
 	"LeetCode/double_even_numbers"
@@ -44,4 +45,6 @@ func main() {
 	slice_to_map.SliceToMap(sliceToMap)
 	non_repeated_indices.NonRepeatedIndices(nonRepeatedIndicesArr)
 	string_tokenizer.InsertSpace(6, "cooddypythongolang")
+	char_extractor.ExtractChar("shvjng", "s", "j")
+
 }
