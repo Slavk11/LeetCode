@@ -4,7 +4,7 @@ import "fmt"
 
 func ExtractChar(word string, startChar string, lastChar string) string {
 	fmt.Print("🔧 Выполнение: Сhar Extractor\n")
-	fmt.Printf("Input String: %s\n", word)
+	fmt.Printf("Input String: %s\nFirst Char: %s\nLast Char: %s\n", word, startChar, lastChar)
 	var result string
 	var first int
 	var last int
@@ -22,7 +22,7 @@ func ExtractChar(word string, startChar string, lastChar string) string {
 		result += string(word[i])
 	}
 
-	fmt.Printf("Output string is %s", result)
+	fmt.Printf("Output string is: %s", result)
 	fmt.Println("\n==============================")
 	fmt.Println("   ✅ Программа завершена    ")
 	fmt.Println("Алгоритмическая сложность по CPU - O(n), по памяти O(1)")

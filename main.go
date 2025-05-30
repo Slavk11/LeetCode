@@ -15,6 +15,7 @@ import (
 	"LeetCode/rehearsal"
 	"LeetCode/slice_to_map"
 	"LeetCode/string_tokenizer"
+	"LeetCode/substring_extractor"
 	"LeetCode/sum"
 	"LeetCode/sum_and_divide"
 	"LeetCode/sum_average_minimum_and_max"
@@ -46,5 +47,6 @@ func main() {
 	non_repeated_indices.NonRepeatedIndices(nonRepeatedIndicesArr)
 	string_tokenizer.InsertSpace(6, "cooddypythongolang")
 	char_extractor.ExtractChar("shvjng", "s", "j")
+	substring_extractor.ExtractSubstring("abshvjngsh", 1, 7)
 
 }
