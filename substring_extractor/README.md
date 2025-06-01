@@ -1,25 +1,15 @@
-✂️ Substring Extractor
-Challenge
-Level: Easy
+# ✂️ Substring Extractor
 
-🧠 Task
-You are given a string like this:
+**Difficulty:** Easy  
+**Language:** Go 🐹
+
+---
+
+## 📌 Task
+
+Implement a function that extracts a portion of a string based on start and end indices.
+
+You are given a string like:
+
+```txt
 "abshvjngsh"
-
-Write a function that takes three parameters:
-
-a string input,
-
-a startIndex,
-
-an endIndex,
-
-and returns a new substring from the original string based on the given indices.
-
-✅ Example
-input := "abshvjngsh"
-startIndex := 2
-endIndex := 7
-
-Expected output:
-"shvjng"

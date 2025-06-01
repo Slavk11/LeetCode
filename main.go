@@ -3,6 +3,7 @@ package main
 import (
 	"LeetCode/abundant_number"
 	"LeetCode/char_extractor"
+	"LeetCode/character_occurrence_counter"
 	"LeetCode/check_a_number"
 	"LeetCode/diamond_pattern"
 	"LeetCode/double_even_numbers"
@@ -48,5 +49,6 @@ func main() {
 	string_tokenizer.InsertSpace(6, "cooddypythongolang")
 	char_extractor.ExtractChar("shvjng", "s", "j")
 	substring_extractor.ExtractSubstring("abshvjngsh", 1, 7)
+	character_occurrence_counter.CountOccurrences("apythonandgolnag", "a")
 
 }
