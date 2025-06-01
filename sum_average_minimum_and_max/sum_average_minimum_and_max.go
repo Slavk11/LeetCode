@@ -4,24 +4,23 @@ import "fmt"
 
 func Calculate(x []float64) {
 	fmt.Println("🔧 Выполнение: Sum Average Minimum and Max\n")
-
 	fmt.Printf("Here is a Slice with elements: %g\n", x)
 
 	var sum float64
 	var average float64
 	numbers := len(x)
-	minimumValue := 9999999.0
-	maximumValue := -9999999.0
+	maximumValue := x[0]
+	minimumValue := x[0]
+
 	for _, number := range x {
 		sum += number
 		average = sum / float64(numbers)
 
-		if number < minimumValue {
-			minimumValue = number
-		}
-
 		if number > maximumValue {
 			maximumValue = number
+		}
+		if number < minimumValue {
+			minimumValue = number
 		}
 	}
 
@@ -30,7 +29,7 @@ func Calculate(x []float64) {
 			" the average number is %g,"+
 			" minumum value is %g,"+
 			" maximum value is %g",
-		sum, average, maximumValue, maximumValue)
+		sum, average, minimumValue, maximumValue)
 
 	fmt.Println("\n==============================")
 	fmt.Println("   ✅ Программа завершена    ")
