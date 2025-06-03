@@ -17,6 +17,9 @@ func ExtractChar(word string, startChar string, lastChar string) string {
 		if string(char) == lastChar && last == -1 {
 			last = i
 		}
+		if first > -1 && last > -1 {
+			break
+		}
 	}
 
 	result = word[first : last+1]

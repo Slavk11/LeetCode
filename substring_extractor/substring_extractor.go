@@ -17,7 +17,7 @@ func ExtractSubstring(word string, firstIndex int, lastIndex int) string {
 	fmt.Printf("Output string %s\n", result)
 	fmt.Println("\n==============================")
 	fmt.Println("   ✅ Программа завершена    ")
-	fmt.Println("Алгоритмическая сложность по CPU - O(n), по памяти O(1)")
+	fmt.Println("Алгоритмическая сложность по CPU - O(n), по памяти O(n)")
 	fmt.Println("==============================")
 
 	return result

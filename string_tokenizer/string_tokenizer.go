@@ -17,7 +17,7 @@ func InsertSpace(counter int, str string) string {
 
 	fmt.Println("\n==============================")
 	fmt.Println("   ✅ Программа завершена    ")
-	fmt.Println("Алгоритмическая сложность по CPU - O(n), по памяти O(1)")
+	fmt.Println("Алгоритмическая сложность по CPU - O(n), по памяти O(n²)")
 	fmt.Println("==============================")
 
 	return result
