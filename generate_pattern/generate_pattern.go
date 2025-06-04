@@ -3,7 +3,7 @@ package generate_pattern
 import "fmt"
 
 func GeneratePattern(n int) {
-	fmt.Println("🔧 Выполнение: Generate Pattern и Generate Pattern\n")
+	fmt.Println("🔧 Выполнение: Generate Pattern\n")
 
 	if n > 10 {
 		fmt.Print("The number should be less than 10")
