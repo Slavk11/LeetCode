@@ -1,25 +1,28 @@
 package main
 
 import (
-	"LeetCode/abundant_number"
-	"LeetCode/char_extractor"
-	"LeetCode/character_occurrence_counter"
-	"LeetCode/check_a_number"
-	"LeetCode/diamond_pattern"
-	"LeetCode/double_even_numbers"
-	"LeetCode/even_and_divisible_numbers"
-	"LeetCode/even_and_odd_numbers"
-	"LeetCode/generate_pattern"
-	"LeetCode/longest_string"
-	"LeetCode/non_repeated_indices"
-	"LeetCode/number_rotation"
+	"LeetCode/abundantnumber"
+	"LeetCode/adddigits"
+	"LeetCode/characteroccurrencecounter"
+	"LeetCode/charextractor"
+	"LeetCode/checkanumber"
+	"LeetCode/diamondpattern"
+	"LeetCode/doubleevennumbers"
+	"LeetCode/evenanddivisiblenumbers"
+	"LeetCode/evendndoddnumbers"
+	"LeetCode/generatepattern"
+	"LeetCode/longeststring"
+	"LeetCode/nonrepeatedindices"
+	"LeetCode/numberrotation"
 	"LeetCode/rehearsal"
-	"LeetCode/slice_to_map"
-	"LeetCode/string_tokenizer"
-	"LeetCode/substring_extractor"
+	"LeetCode/removeduplicatesfromsortedarray"
+	"LeetCode/slicetomap"
+	"LeetCode/stringreversalandduplication"
+	"LeetCode/stringtokenizer"
+	"LeetCode/substringextractor"
 	"LeetCode/sum"
-	"LeetCode/sum_and_divide"
-	"LeetCode/sum_average_minimum_and_max"
+	"LeetCode/sumanddivide"
+	"LeetCode/sumaverageminimumandmax"
 )
 
 func main() {
@@ -28,27 +31,35 @@ func main() {
 	numbersForCalculate := []float64{3.5, 2.34, 8.9, 1.6, 4.3}
 	arrForSum := []int{2, 4, 6, 7, 8, 8, 9}
 	evenAndOddNumbersArray := []int{20, 6, 78, 89, 9, 12, 33}
-	sliceToMap := []string{"Coddy", "LearnGolang", "LearnPython", "Challenges"}
+	stringArray := []string{"Coddy", "LearnGolang", "LearnPython", "Challenges"}
 	nonRepeatedIndicesArr := []string{"a", "fc", "ab", "a", "ab", "b"}
+	removeDuplicates := []int{1, 1, 2}
+	lastIndex := 7
+	counter := 6
+	checkNumber := 87
+	firstNumber := 4
+	lastNumber := 10
 
-	sum_and_divide.SumAndDivide(4, 10)
-	generate_pattern.GeneratePattern(10)
-	number_rotation.RotateNumbers(20, 4)
-	even_and_divisible_numbers.DivisibleNumbers(10)
-	diamond_pattern.PrintDiamondPattern(5)
-	rehearsal.SumAndDivide(4, 10)
-	abundant_number.IsAbundantNumber(12)
-	check_a_number.CheckNumber(87)
-	longest_string.LongestString(wordsArray)
-	double_even_numbers.DoubleEvenNumbers(numbersArray)
-	sum_average_minimum_and_max.Calculate(numbersForCalculate)
+	adddigits.AddDigits(firstNumber)
+	sumanddivide.SumAndDivide(firstNumber, lastNumber)
+	generatepattern.GeneratePattern(lastNumber)
+	numberrotation.RotateNumbers(checkNumber, lastIndex)
+	evenanddivisiblenumbers.DivisibleNumbers(lastNumber)
+	diamondpattern.PrintDiamondPattern(firstNumber)
+	rehearsal.SumAndDivide(firstNumber, lastNumber)
+	abundantnumber.IsAbundantNumber(checkNumber)
+	checkanumber.CheckNumber(checkNumber)
+	longeststring.LongestString(wordsArray)
+	doubleevennumbers.DoubleEvenNumbers(numbersArray)
+	sumaverageminimumandmax.Calculate(numbersForCalculate)
 	sum.CalculateSum(arrForSum)
-	even_and_odd_numbers.PerformOperations(evenAndOddNumbersArray)
-	slice_to_map.SliceToMap(sliceToMap)
-	non_repeated_indices.NonRepeatedIndices(nonRepeatedIndicesArr)
-	string_tokenizer.InsertSpace(6, "cooddypythongolang")
-	char_extractor.ExtractChar("shvjng", "s", "j")
-	substring_extractor.ExtractSubstring("abshvjngsh", 1, 7)
-	character_occurrence_counter.CountOccurrences("apythonandgolnag", "a")
-
+	evendndoddnumbers.PerformOperations(evenAndOddNumbersArray)
+	slicetomap.SliceToMap(stringArray)
+	nonrepeatedindices.NonRepeatedIndices(nonRepeatedIndicesArr)
+	stringtokenizer.InsertSpace(counter, "cooddypythongolang")
+	charextractor.ExtractChar("shvjng", "s", "j")
+	substringextractor.ExtractSubstring("abshvjngsh", firstNumber, lastIndex)
+	characteroccurrencecounter.CharacterOccurrenceCounter("PythonMagick", "a")
+	stringreversalandduplication.ReverseAndDouble("abcdfgh")
+	removeduplicatesfromsortedarray.RemoveDuplicates(removeDuplicates)
 }
