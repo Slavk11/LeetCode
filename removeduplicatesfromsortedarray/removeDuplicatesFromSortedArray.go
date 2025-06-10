@@ -16,7 +16,12 @@ func RemoveDuplicates(nums []int) int {
 		}
 	}
 
-	fmt.Print(result)
+	fmt.Printf("Input array was: %v, Output is: %v \n", nums, nums[:result])
+	fmt.Printf("Result is: %d", result)
+	fmt.Println("\n==============================")
+	fmt.Println("   ✅ Программа завершена    ")
+	fmt.Println("Алгоритмическая сложность по CPU - O(n), по памяти O(1)")
+	fmt.Println("==============================")
 
 	return result
 }
