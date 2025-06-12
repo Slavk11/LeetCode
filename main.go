@@ -23,6 +23,7 @@ import (
 	"LeetCode/sum"
 	"LeetCode/sumanddivide"
 	"LeetCode/sumaverageminimumandmax"
+	"LeetCode/wordcounter"
 )
 
 func main() {
@@ -62,4 +63,5 @@ func main() {
 	characteroccurrencecounter.CharacterOccurrenceCounter("PythonMagick", "a")
 	stringreversalandduplication.ReverseAndDouble("abcdfgh")
 	removeduplicatesfromsortedarray.RemoveDuplicates(removeDuplicates)
+	wordcounter.CountWords("Learn Golang with Coddy")
 }
