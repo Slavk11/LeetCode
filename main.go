@@ -17,6 +17,7 @@ import (
 	"LeetCode/rehearsal"
 	"LeetCode/removeduplicatesfromsortedarray"
 	"LeetCode/slicetomap"
+	"LeetCode/stringcompression"
 	"LeetCode/stringreversalandduplication"
 	"LeetCode/stringtokenizer"
 	"LeetCode/substringextractor"
@@ -64,4 +65,5 @@ func main() {
 	stringreversalandduplication.ReverseAndDouble("abcdfgh")
 	removeduplicatesfromsortedarray.RemoveDuplicates(removeDuplicates)
 	wordcounter.CountWords("Learn Golang with Coddy")
+	stringcompression.CompressString("aabccchbbccaaa")
 }
