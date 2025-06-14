@@ -16,13 +16,17 @@ import (
 	"LeetCode/numberrotation"
 	"LeetCode/rehearsal"
 	"LeetCode/removeduplicatesfromsortedarray"
+	"LeetCode/removesduplicate"
 	"LeetCode/slicetomap"
+	"LeetCode/stringcharacterprinter"
+	"LeetCode/stringcompression"
 	"LeetCode/stringreversalandduplication"
 	"LeetCode/stringtokenizer"
 	"LeetCode/substringextractor"
 	"LeetCode/sum"
 	"LeetCode/sumanddivide"
 	"LeetCode/sumaverageminimumandmax"
+	"LeetCode/wordcounter"
 )
 
 func main() {
@@ -62,4 +66,8 @@ func main() {
 	characteroccurrencecounter.CharacterOccurrenceCounter("PythonMagick", "a")
 	stringreversalandduplication.ReverseAndDouble("abcdfgh")
 	removeduplicatesfromsortedarray.RemoveDuplicates(removeDuplicates)
+	wordcounter.CountWords("Learn Golang with Coddy")
+	stringcompression.CompressString("aabccchbbccaaa")
+	removesduplicate.RemoveDuplicate("ddgghhjj")
+	stringcharacterprinter.PrintCharacters("Coddy")
 }
