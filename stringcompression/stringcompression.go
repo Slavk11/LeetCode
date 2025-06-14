@@ -10,6 +10,8 @@ func CompressString(inputString string) string {
 		return ""
 	}
 
+	fmt.Println("Выполнение: String Compression")
+
 	var symbol strings.Builder
 
 	result := make([]string, 0, len(inputString))

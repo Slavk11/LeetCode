@@ -7,6 +7,8 @@ func RemoveDuplicate(inputString string) string {
 		return ""
 	}
 
+	fmt.Println("Выполнение: Removes Duplicate")
+
 	result := []byte{inputString[0]}
 
 	for i := 1; i < len(inputString); i++ {

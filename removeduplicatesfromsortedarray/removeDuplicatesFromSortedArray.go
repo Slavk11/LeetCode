@@ -7,6 +7,8 @@ func RemoveDuplicates(nums []int) int {
 		return 0
 	}
 
+	fmt.Println("Выполнение: Remove Duplicates from Sorted Array")
+
 	result := 1
 
 	for i := 1; i < len(nums); i++ {

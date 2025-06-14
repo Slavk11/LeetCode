@@ -18,6 +18,7 @@ import (
 	"LeetCode/removeduplicatesfromsortedarray"
 	"LeetCode/removesduplicate"
 	"LeetCode/slicetomap"
+	"LeetCode/stringcharacterprinter"
 	"LeetCode/stringcompression"
 	"LeetCode/stringreversalandduplication"
 	"LeetCode/stringtokenizer"
@@ -68,4 +69,5 @@ func main() {
 	wordcounter.CountWords("Learn Golang with Coddy")
 	stringcompression.CompressString("aabccchbbccaaa")
 	removesduplicate.RemoveDuplicate("ddgghhjj")
+	stringcharacterprinter.PrintCharacters("Coddy")
 }
