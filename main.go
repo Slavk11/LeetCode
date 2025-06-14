@@ -16,6 +16,7 @@ import (
 	"LeetCode/numberrotation"
 	"LeetCode/rehearsal"
 	"LeetCode/removeduplicatesfromsortedarray"
+	"LeetCode/removesduplicate"
 	"LeetCode/slicetomap"
 	"LeetCode/stringcompression"
 	"LeetCode/stringreversalandduplication"
@@ -66,4 +67,5 @@ func main() {
 	removeduplicatesfromsortedarray.RemoveDuplicates(removeDuplicates)
 	wordcounter.CountWords("Learn Golang with Coddy")
 	stringcompression.CompressString("aabccchbbccaaa")
+	removesduplicate.RemoveDuplicate("ddgghhjj")
 }
