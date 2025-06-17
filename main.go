@@ -3,6 +3,7 @@ package main
 import (
 	"LeetCode/abundantnumber"
 	"LeetCode/adddigits"
+	"LeetCode/besttimetobuyandsellstock2"
 	"LeetCode/characteroccurrencecounter"
 	"LeetCode/charextractor"
 	"LeetCode/checkanumber"
@@ -27,7 +28,7 @@ import (
 
 func main() {
 	wordsArray := []string{"abc", "coddy", "golang", "java"}
-	numbersArray := []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+	numbersArray := []int{7, 1, 5, 3, 6, 4}
 	numbersForCalculate := []float64{3.5, 2.34, 8.9, 1.6, 4.3}
 	arrForSum := []int{2, 4, 6, 7, 8, 8, 9}
 	evenAndOddNumbersArray := []int{20, 6, 78, 89, 9, 12, 33}
@@ -62,4 +63,5 @@ func main() {
 	characteroccurrencecounter.CharacterOccurrenceCounter("PythonMagick", "a")
 	stringreversalandduplication.ReverseAndDouble("abcdfgh")
 	removeduplicatesfromsortedarray.RemoveDuplicates(removeDuplicates)
+	besttimetobuyandsellstock2.MaxProfit(numbersArray)
 }
