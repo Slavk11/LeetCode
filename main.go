@@ -24,6 +24,7 @@ import (
 	"LeetCode/sum"
 	"LeetCode/sumanddivide"
 	"LeetCode/sumaverageminimumandmax"
+	"LeetCode/validanagram"
 )
 
 func main() {
@@ -64,4 +65,5 @@ func main() {
 	stringreversalandduplication.ReverseAndDouble("abcdfgh")
 	removeduplicatesfromsortedarray.RemoveDuplicates(removeDuplicates)
 	besttimetobuyandsellstock2.MaxProfit(numbersArray)
+	validanagram.IsAnagram("anagram", "nagaramm")
 }
