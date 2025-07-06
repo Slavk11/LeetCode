@@ -2,34 +2,31 @@ package stringcompression
 
 import (
 	"fmt"
-	"strings"
 )
 
-func CompressString(inputString string) string {
+func CompressString(inputString string) {
 	if len(inputString) == 0 {
-		return ""
+		return
 	}
 
 	fmt.Println("Выполнение: String Compression")
 
-	var symbol strings.Builder
-
-	result := make([]string, 0, len(inputString))
-
-	for i := range len(inputString) {
-		symbol.WriteByte('#')
+	counter := 0
+	for i := 0; i < len(inputString); i++ {
+		counter++
 
 		if i == len(inputString)-1 || inputString[i] != inputString[i+1] {
-			result = append(result, string(inputString[i]), symbol.String())
-			symbol.Reset()
+			fmt.Printf("%c", inputString[i])
+			for j := 0; j < counter; j++ {
+				fmt.Print("#")
+			}
+			counter = 0
 		}
 	}
 
-	fmt.Printf("The input string is: %s, result: %s", inputString, strings.Join(result, ""))
+	fmt.Printf("\nThe input string is: %s\n", inputString)
 	fmt.Println("\n==============================")
 	fmt.Println("   ✅ Программа завершена    ")
 	fmt.Println("Алгоритмическая сложность по CPU - O(n), по памяти O(1)")
 	fmt.Println("==============================")
-
-	return strings.Join(result, "")
 }
