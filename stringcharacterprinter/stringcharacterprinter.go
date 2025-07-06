@@ -2,7 +2,6 @@ package stringcharacterprinter
 
 import (
 	"fmt"
-	"strings"
 )
 
 func PrintCharacters(inputString string) {
@@ -13,21 +12,16 @@ func PrintCharacters(inputString string) {
 	fmt.Println("Выполнение: Character Occurrence Counter")
 	fmt.Printf("Input String: %s\n", inputString)
 
-	var builder strings.Builder
-
-	for _, ch := range inputString {
-		builder.WriteRune(ch)
-		fmt.Println(builder.String())
+	for i := 1; i <= len(inputString); i++ {
+		fmt.Println(inputString[:i])
 	}
 
-	result := builder.String()
-
-	for i := len(result) - 1; i > 0; i-- {
-		fmt.Println(result[:i])
+	for i := len(inputString) - 1; i > 0; i-- {
+		fmt.Println(inputString[:i])
 	}
 
 	fmt.Println("\n==============================")
 	fmt.Println("   ✅ Программа завершена    ")
-	fmt.Println("Алгоритмическая сложность по CPU - O(n), по памяти O(n)")
+	fmt.Println("Алгоритмическая сложность по CPU - O(n), по памяти O(1)")
 	fmt.Println("==============================")
 }
